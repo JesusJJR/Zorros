@@ -1,0 +1,121 @@
+//Estilos de textos
+/*Tipografia*/
+
+
+.negrita{
+    font-family: "Lora",serif;
+    font-style:italic;
+    font-weight:bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.negrita--des{
+    padding: 0 0 0 5%;
+    font-size: 150%;
+    text-shadow: 2px 2px 4px ;
+    color:darkred;
+}
+.centrarTexto{
+    margin-left:37rem;
+}
+
+.azul{
+    color:blue;
+    text-decoration:underline;
+}
+
+//Especies de zorro
+/* Especie de Zorro*/
+.tituloFond{
+    border-style:groove;
+    padding: 20px; 
+    font-style: italic;
+    text-align: center;
+    margin-left: 36vw;
+}
+
+.principio__txt{
+    
+    padding: 15px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    word-spacing: 2px;
+    text-align:justify;
+    border-radius: 10px;
+
+}
+
+//Caracteristica de los Zorros
+/*mixin*/
+@mixin styletitulo ($tamano, $spaceline, $worspacing){
+    font-size:$tamano;
+    line-height: $spaceline;
+    word-spacing:$worspacing;
+
+}
+.textoCarac{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    letter-spacing: 1px;
+    text-align:justify;
+    height: 50%;
+   @include styletitulo(1.2rem,150%,2px);
+}
+
+.tituloCarac{
+    
+    border: 5px rgb(123, 25, 161);
+    border-style:groove;
+    padding: 20px;
+    margin-left: 35vw; 
+    font-style: italic;
+    height: 50%;
+    text-align: center;
+}
+
+.moverTitulo{
+    
+    text-align:center;
+    margin: 2%;
+    font-size: 150%;
+}
+
+.caracter__square{
+    list-style-type: square;
+    padding: 10px;
+}
+
+.caracter__htres{
+    text-align: center;
+    font-family: "Lora",serif;
+    padding: 5px;
+}
+
+//ubicacion geografica
+
+.tituloGeo{
+    text-align:center;
+    margin:2%;
+    padding: 1%;
+    
+}
+
+//curiosidades
+.tituloFlexx__deco{
+    font-family: "Lore",serif;
+    font-size: 200%;
+}
+
+.text_curi{
+
+    text-align: center;
+    line-height: 30px;
+    word-spacing: 2px;
+    color: rgb(48, 44, 12);
+}
+
+
+

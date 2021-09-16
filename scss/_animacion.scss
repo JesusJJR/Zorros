@@ -1,0 +1,21 @@
+//segunda entrega
+/*Animaciones*/
+.animaSinefe{
+    transition: 1s;
+}
+
+.animaLogo:hover{
+    transform: rotate(360deg);
+}
+.animaImag:hover{
+    transform: translateY(-15px);
+
+}
+
+//curiosidades
+
+.blackColor:hover{
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #8693ab  0%, #bdd4e7 74%);
+
+}

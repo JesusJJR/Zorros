@@ -1,0 +1,83 @@
+//Grid
+
+/*grid a index*/
+.grido{
+    display: grid;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    padding: 10px;
+    .a{
+        border:1px solid teal;
+        grid-area: gris;
+    }
+    
+    .b{
+        border:1px solid teal;
+        grid-area: zorrohumano;
+    }
+    
+    .c{
+        border:1px solid teal;
+        grid-area: canidae;
+        /*height: 500px;*/
+    }
+}
+
+//Zorro gris
+/*aplicando grid al contenido zorro gris*/
+
+.gris{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "titulozg imgris" "textozg textozg";
+    grid-column-gap: 5px;
+    grid-row-gap:20px;
+    justify-items:center;
+    align-items: center;
+    .gris__titulo{
+        grid-area: titulozg;
+        }
+        
+        .gris__img{
+            width: 500px;
+            height: 350px;
+            grid-area: imgris;
+            padding: 20px 20px 0 0px;
+        }
+        .gris__texto{
+            grid-area:textozg;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 0 0 20px 0;
+            width: 75%;
+        }
+}
+
+
+/*aplicando grids al contenido de la familia canidae*/
+.gridcan{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items:center;
+    align-items:center;
+    grid-template-areas: "tituloc imagenc" "textoc textoc ";
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    .canidaeUno{
+        grid-area: tituloc;
+    }
+    .canidaeDos{
+        grid-area:imagenc;
+        width:200px;
+        height:200px;
+        margin:30px 20px 0 0 ;
+    }
+    .canidaeTres{
+        grid-area:textoc;
+    }
+    
+}
+
+

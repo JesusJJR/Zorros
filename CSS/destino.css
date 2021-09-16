@@ -1,0 +1,507 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+/*Reseteo*/
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-family: "Roboto",sans-serif; }
+
+.titulo {
+  border: 3px solid darkblue;
+  padding: 5px; }
+
+.margenes {
+  margin-top: 10px; }
+
+body {
+  width: 100%; }
+
+.tituloHdos {
+  border: 1px solid black;
+  text-decoration: underline;
+  padding: 30px; }
+
+fieldset {
+  padding: 10px;
+  line-height: 150%; }
+
+legend {
+  padding: 10px; }
+
+.radio {
+  border-radius: 30px; }
+
+.bordecc {
+  border: 2px solid black; }
+
+/* ccs con bootstrap*/
+.ancho {
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.success {
+  color: black;
+  text-shadow: 2px 2px 6px; }
+
+.centrarCarrusel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 70px; }
+
+.tamañoCarrucel {
+  width: 600px;
+  height: 450px; }
+
+.imagenCarrusel {
+  height: 500px; }
+
+.successWhite {
+  color: white; }
+
+.successBlue {
+  text-shadow: 2px 2px 6px #4e4e7a;
+  color: #1b1309; }
+
+.fondoBootstrap {
+  background-color: #7cffcb;
+  background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%); }
+
+.separacion {
+  margin-top: 20px; }
+
+/* Especies de zorro*/
+.centrarZoroo {
+  text-align: center; }
+
+/*Map*/
+.fondo__body {
+  background-color: teal; }
+
+.fondo__titulo--ind {
+  background-color: #dddde7; }
+
+.fondo__text--esp {
+  background-color: papayawhip; }
+
+.fondo__text-cara {
+  background-color: #80dd8f; }
+
+.fondo__titulo--cara {
+  background-color: #80e6c4; }
+
+.fondo__secc {
+  background-color: #635858; }
+
+.fondo__secc--text {
+  background-color: #d4dce4; }
+
+.fondo__secc--index {
+  background-color: #9cc8f1; }
+
+.fondo__habitat {
+  background-color: #7ee47e; }
+
+.fondo__text--curi {
+  background-color: cyan; }
+
+.fondo__Text {
+  background-color: #a0b0c9; }
+
+/*Encabezado*/
+.encabezado {
+  background-image: url("../imagenes/Zorromodificado.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .encabezado .encabezado__logo {
+    width: 100px;
+    height: 100px;
+    transition: 1s; }
+
+/*Index__Introduccion*/
+.principio {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.principio__flex {
+  flex-basis: 10%;
+  width: 50%;
+  padding: 20px;
+  line-height: 150%;
+  word-spacing: 2px;
+  text-align: justify;
+  border-radius: 30px; }
+
+/*aplicando flex al contenido lazos zorros-humanos*/
+.zorroHum {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0 0 0; }
+
+/*etiqueta footer*/
+.footerSolo {
+  background-image: url("../imagenes/Zorromodificado.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  padding: 20px;
+  line-height: 150%; }
+
+.footersolo__redes {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0px 10px 0px 0px;
+  align-items: flex-end;
+  margin: 10px 20px 0 0; }
+
+.footersolo__redes--space {
+  margin: 10px; }
+
+/* Contenido de los 6 zorros*/
+.seisZorro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.seis {
+  border: 2px solid lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.5%; }
+
+.tituloGf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.habitat {
+  padding: 20px; }
+  .habitat .habitat__h {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 27vw;
+    align-items: center; }
+  .habitat .habitat__img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 24vw; }
+  .habitat .habitat__txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    text-align: center;
+    font-size: 110%;
+    margin-left: 16vw; }
+
+/*Paguina curiosidades*/
+.flexCur {
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  width: 80%; }
+
+.flexCur__txt {
+  padding: 1%;
+  border: 5px dashed rgba(72, 9, 131, 0.527);
+  border-radius: 10px; }
+
+.tituloFlexx {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2%;
+  background-color: #a0b0c9;
+  border-radius: 25px; }
+
+/*grid a index*/
+.grido {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 10px; }
+  .grido .a {
+    border: 1px solid teal;
+    grid-area: gris; }
+  .grido .b {
+    border: 1px solid teal;
+    grid-area: zorrohumano; }
+  .grido .c {
+    border: 1px solid teal;
+    grid-area: canidae;
+    /*height: 500px;*/ }
+
+/*aplicando grid al contenido zorro gris*/
+.gris {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "titulozg imgris" "textozg textozg";
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: center; }
+  .gris .gris__titulo {
+    grid-area: titulozg; }
+  .gris .gris__img {
+    width: 500px;
+    height: 350px;
+    grid-area: imgris;
+    padding: 20px 20px 0 0px; }
+  .gris .gris__texto {
+    grid-area: textozg;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    width: 75%; }
+
+/*aplicando grids al contenido de la familia canidae*/
+.gridcan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: "tituloc imagenc" "textoc textoc ";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+  .gridcan .canidaeUno {
+    grid-area: tituloc; }
+  .gridcan .canidaeDos {
+    grid-area: imagenc;
+    width: 200px;
+    height: 200px;
+    margin: 30px 20px 0 0; }
+  .gridcan .canidaeTres {
+    grid-area: textoc; }
+
+/*Media queris*/
+@media screen and (max-width: 720px) {
+  .encabezado {
+    height: 25vh; } }
+
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+  .encabezado {
+    height: 250px; } }
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+  .encabezado {
+    height: 400px; } }
+
+/*
+@media screen and(min-width: 721px) and (max-width:1500px){
+    
+    .encabezado{
+        height: 55vh;
+    }
+}*/
+@media (min-device-width: 481px) and (max-device-width: 720px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 130px 750px; }
+  .tamañoMedia {
+    display: grid;
+    font-size: 19px;
+    margin-right: 150px; }
+  .tamañoMediaq {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    width: 80%; }
+  .centrarTexto {
+    margin-left: 0rem; } }
+
+/*Tipografia*/
+.negrita {
+  font-family: "Lora",serif;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.negrita--des {
+  padding: 0 0 0 5%;
+  font-size: 150%;
+  text-shadow: 2px 2px 4px;
+  color: darkred; }
+
+.centrarTexto {
+  margin-left: 37rem; }
+
+.azul {
+  color: blue;
+  text-decoration: underline; }
+
+/* Especie de Zorro*/
+.tituloFond {
+  border-style: groove;
+  padding: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-left: 36vw; }
+
+.principio__txt {
+  padding: 15px;
+  letter-spacing: 1px;
+  line-height: 150%;
+  word-spacing: 2px;
+  text-align: justify;
+  border-radius: 10px; }
+
+/*mixin*/
+.textoCarac {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 15px;
+  letter-spacing: 1px;
+  text-align: justify;
+  height: 50%;
+  font-size: 1.2rem;
+  line-height: 150%;
+  word-spacing: 2px; }
+
+.tituloCarac {
+  border: 5px #7b19a1;
+  border-style: groove;
+  padding: 20px;
+  margin-left: 35vw;
+  font-style: italic;
+  height: 50%;
+  text-align: center; }
+
+.moverTitulo {
+  text-align: center;
+  margin: 2%;
+  font-size: 150%; }
+
+.caracter__square {
+  list-style-type: square;
+  padding: 10px; }
+
+.caracter__htres {
+  text-align: center;
+  font-family: "Lora",serif;
+  padding: 5px; }
+
+.tituloGeo {
+  text-align: center;
+  margin: 2%;
+  padding: 1%; }
+
+.tituloFlexx__deco {
+  font-family: "Lore",serif;
+  font-size: 200%; }
+
+.text_curi {
+  text-align: center;
+  line-height: 30px;
+  word-spacing: 2px;
+  color: #302c0c; }
+
+.fondoCaracteristicas {
+  background-color: #5dcceefa; }
+
+.colorFondo {
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); }
+
+.principio__deco {
+  background-color: #a0b0c9; }
+
+.tituloFondo {
+  background-color: skyblue;
+  border-radius: 10px;
+  padding: 10px; }
+
+/*Animaciones*/
+.animaSinefe {
+  transition: 1s; }
+
+.animaLogo:hover {
+  transform: rotate(360deg); }
+
+.animaImag:hover {
+  transform: translateY(-15px); }
+
+.blackColor:hover {
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #8693ab 0%, #bdd4e7 74%); }
+
+/*INDEX__Introduccion*/
+.imgprincipal {
+  width: 40%;
+  height: 450px; }
+
+/*etiqueta main*/
+.imgSecundario {
+  width: 250px;
+  height: 200px; }
+
+.principio__img {
+  width: 800px;
+  height: 500px; }
+
+.imagenEz {
+  width: 63% !important;
+  height: 350px !important;
+  border-radius: 100px;
+  margin-left: 20%;
+  margin-bottom: 10px; }
+
+.encabezado__logo {
+  width: 100px;
+  height: 100px;
+  transition: 1s; }
