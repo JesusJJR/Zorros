@@ -1,0 +1,2 @@
+A cada archivo .html, en el renglon 8 y 9 agrege las 
+"keywords" y los "description".
