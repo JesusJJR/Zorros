@@ -1,7 +1,7 @@
 //General
 
 $fonGrad:#7cffcb;
-$tiuloBorde:3px solid darkblue;
+$tiuloBorde:rgba(138, 189, 255, 0.952);
 /*Reseteo*/
 *{
     padding: 0;
@@ -12,8 +12,10 @@ html{
 }
 
 .titulo{
-    border:$tiuloBorde;
-    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
 }
 
 .margenes{
@@ -25,10 +27,10 @@ body{
 }
 
 .tituloHdos{
-   
-    border: 1px solid black;
-    text-decoration: underline;
     padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
 }
 
 fieldset{
@@ -110,15 +112,14 @@ legend{
 /*Map*/
 
 $fondo:(
-    body:teal,
-    titulo--ind:rgb(221, 221, 231),
-    text--esp:papayawhip,
-    text-cara:rgb(128, 221, 143),
-    titulo--cara: rgb(128, 230, 196),
-    secc:rgb(99, 88, 88),
+    body:white,
+    titulo--ind:rgb(159, 207, 247),
+    text--esp:white,
+    text-cara:white,
+    titulo--cara: rgb(96, 202, 235),
+    secc:rgba(138, 189, 255, 0.952),
     secc--text: rgb(212, 220, 228),
-    secc--index:rgb(156, 200, 241),
-    habitat:rgb(126, 228, 126),
+    habitat:white,
     text--curi:cyan,
     Text:rgb(160, 176, 201)
 );
@@ -127,4 +128,24 @@ $fondo:(
     background-color:$bgcolor;
     }
     
+}
+
+.imagin{
+    width: 25vw;
+    margin-bottom: 2px;
+}
+.mover
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.espaciado {
+    margin-bottom: 10wpx;
+}
+
+.separacionImg{
+
+    padding: 5px;
 }

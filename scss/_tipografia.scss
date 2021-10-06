@@ -3,7 +3,7 @@
 
 
 .negrita{
-    font-family: "Lora",serif;
+    font-family: "Roboto",serif;
     font-style:italic;
     font-weight:bold;
     letter-spacing: 1px;
@@ -11,10 +11,9 @@
 }
 
 .negrita--des{
-    padding: 0 0 0 5%;
+    padding-left: 2%;
     font-size: 150%;
-    text-shadow: 2px 2px 4px ;
-    color:darkred;
+    color:black;
 }
 .centrarTexto{
     margin-left:37rem;
@@ -27,13 +26,6 @@
 
 //Especies de zorro
 /* Especie de Zorro*/
-.tituloFond{
-    border-style:groove;
-    padding: 20px; 
-    font-style: italic;
-    text-align: center;
-    margin-left: 36vw;
-}
 
 .principio__txt{
     
@@ -41,10 +33,11 @@
     letter-spacing: 1px;
     line-height: 150%;
     word-spacing: 2px;
-    text-align:justify;
-    border-radius: 10px;
-
+    text-align:left;
+    border-radius: 30px;
+    border:solid 2px black;
 }
+
 
 //Caracteristica de los Zorros
 /*mixin*/
@@ -92,6 +85,8 @@
     text-align: center;
     font-family: "Lora",serif;
     padding: 5px;
+    background-color: black;
+    color: white;
 }
 
 //ubicacion geografica
